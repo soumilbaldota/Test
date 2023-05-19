@@ -1,10 +1,4 @@
-import AOS from "aos";
-import React, { useEffect } from "react";
-
 const DataDisplay = ({ data }) => {
-  useEffect(() => {
-    AOS.init({ duration: 0 });
-  }, []);
   return (
       // <div className="justify-center bg-gradient-to-b from-rose-500 to-indigo-700 sm:px-16 lg:px-48 py-4">
       <div className = 'justify-center bg-gray-600  sm:px-16 lg:px-48 py-4'>
