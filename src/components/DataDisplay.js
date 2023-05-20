@@ -35,7 +35,7 @@ const DataDisplay = ({ data }) => {
                 >
                 <div key={project.name}>
                   <p className="text-blue-400 text-xl"
-                        style={{ fontFamily: "JetBrains Mono" }}><pre>    {project.name}: {project.description}</pre></p>
+                        style={{ fontFamily: "JetBrains Mono" }}>{project.name}: {project.description}</p>
                  <div
                   className="xt-card rounded-2xl text-white xt-links-default bg-gray-200 transition hover:bg-gray-300 active:bg-gray-400 on:bg-gray-200 my-4"
                   data-aos="fade-up"
